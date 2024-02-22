@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fbackground: #63635e;
+}
+
+::selection {
+    background-color: #200544; /* Cor de fundo mais clara */
+    color: #fffefe; /* Cor de texto mais escura */
+}
+
+body {
+    background: rgb(9,8,8);
+    background: linear-gradient(90deg, rgba(9,8,8,1) 38%, #26071d 50%, rgba(9,8,8,1) 62%);
+    color: aliceblue;
+}
+
+h1,
+h2 {
+    font-size: 1.4rem;
+    line-height: 1;
+    font-family: 'Kode Mono', monospace;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+}
+
+.contanier-one {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-dif {
+    font-size: 1rem;
+    color: var(--fbackground);
+}
+
+.contanier-one h1 {
+    padding-bottom: 5rem;
+}
+
+/* Segunda secão */
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.contanier-to {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contanier-to h2 {
+    padding-top: 6rem;
+}
+
