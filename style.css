@@ -24,6 +24,7 @@ body {
     background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(38,7,29,1) 50%, rgba(17,17,16,1) 56%);
     color: aliceblue;
     font-family: 'Geis', monospace;
+    font-weight: bold;
 }
 
 img {
@@ -34,14 +35,18 @@ img {
 
 h1,
 h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1;
-    font-weight: 700;
 }
 
 p {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--fbackground);
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
@@ -106,10 +111,6 @@ main {
 
 }
 
-.sec-info h2 {
-
-}
-
 .icons {
     display: flex;
     gap: 1rem;
@@ -135,8 +136,14 @@ main {
     color: var(--white-color);
 }
 
+.caract {
+    display: inline-block;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
 footer {
-    margin: 95px 0 25px 0;
+    padding: 95px 0 25px 0;
 }
 
 footer h3 {
@@ -148,3 +155,6 @@ footer h3 {
     font-size: 0.81rem;
     color: var(--fbackground);
 }
+
+/* Estilização da segunda página */
+

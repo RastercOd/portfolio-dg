@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Geis';
+    src: url('Geist-Bold.oft') format('opentype'), url('Geist-Regular.otf') format('opentype');
+}
+
+:root {
+    --fbackground: #63635e;
+    --white-color: #fffefe;
+    --border-line: #8c8c8c;
+    --color-hover: #191918;
+}
+
+::selection {
+    background-color: #26071d; /* Cor de fundo mais clara */
+    color: #fffefe; /* Cor de texto mais escura */
+}
+
+body {
+    background: rgb(17,17,17);
+    background: linear-gradient(90deg, #111111 43%, #26071d 50%, #111110 56%);
+    color: aliceblue;
+    font-family: 'Geis', monospace;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+h1,
+h2 {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--fbackground);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+}
+
+.container-one h1 {
+    margin-bottom: 48px;
+}
+
+.container-one h2{
+    margin-bottom: 10px;
+}
+
+.container-one img {
+    margin: 25px 0;
+}
+
+.frameworks {
+    margin: 25px 0;
+}
+
+.frameworks p {
+    color: var(--white-color);
+    margin-bottom: 12px;
+}
+
+.frameworks ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.frameworks ul li {
+    font-weight: 300;
+    color: var(--fbackground);
+    text-decoration: underline;
+    border-radius: 35px;
+    border: 0.1px solid var(--border-line);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.frameworks ul li:hover {
+    background-color: var(--color-hover);
+    transition: 0.5s;
+}
+
+.bickcraft-site {
+    margin-top: 85px;
+}
+
+footer {
+    padding: 95px 0 25px 0;
+}
+
+footer h3 {
+    font-size: 0.81rem;
+    color: var(--fbackground);
+}
+
+.footer-en {
+    font-size: 0.81rem;
+    color: var(--fbackground);
+}
