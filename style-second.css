@@ -121,10 +121,12 @@ footer h3 {
     color: var(--fbackground);
 }
 
-/* Estilização da segunda página */
-
 @media (max-width: 700px) {
-    .container-one {
-        padding: 0 22px;
+    main {
+        padding: 40px 22px 10px 22px;
+    }
+
+    footer {
+        font-size: 0.78rem;
     }
 }
