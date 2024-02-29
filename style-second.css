@@ -29,12 +29,6 @@ body {
     font-weight: bold;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    border-radius: 12px;
-}
-
 h1,
 h2 {
     font-size: 1rem;
@@ -52,6 +46,13 @@ a {
     color: var(--white-color);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 12px;
+}
+    
+
 main {
     margin: 0 auto;
     max-width: 680px;
@@ -61,15 +62,12 @@ main {
 }
 
 .container-one div h1 {
-    margin-bottom: 48px;
+    padding-bottom: 48px;
+    font-size: 1.3rem;
 }
 
 .container-one div h2{
     margin-bottom: 10px;
-}
-
-.container-one img {
-    margin: 25px 0;
 }
 
 .frameworks {
@@ -81,8 +79,13 @@ main {
     margin-bottom: 12px;
 }
 
+.img-block {
+    padding: 25px 0;
+}
+
 .frameworks ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     list-style: none;
 }
@@ -122,12 +125,11 @@ footer h3 {
 }
 
 @media (max-width: 700px) {
-    main .container-one, 
-    footer {
-        padding: 40px 22px 20px 22px;
+    main {
+        padding: 80px 22px 10px 22px;
     }
 
-    footer {
+    footer h3 {
         font-size: 0.78rem;
     }
 }
