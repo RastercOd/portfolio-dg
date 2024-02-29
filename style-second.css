@@ -57,7 +57,7 @@ main {
     max-width: 680px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
 .container-one h1 {
@@ -119,4 +119,12 @@ footer h3 {
 .footer-en {
     font-size: 0.81rem;
     color: var(--fbackground);
+}
+
+/* Estilização da segunda página */
+
+@media (max-width: 700px) {
+    .container-one {
+        padding: 0 22px;
+    }
 }

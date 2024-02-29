@@ -10,7 +10,7 @@
 }
 
 :root {
-    --fbackground: #63635e;
+    --fbackground: #9D9B95;
     --white-color: #fffefe;
 }
 
@@ -20,12 +20,15 @@
 }
 
 body {
+    /* background: rgb(17,17,17);
+    background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(38,7,29,1) 50%, rgba(17,17,16,1) 56%); */
     background: rgb(17,17,17);
-    background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(38,7,29,1) 50%, rgba(17,17,16,1) 56%);
+background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(14,17,16,1) 50%, rgba(17,17,16,1) 56%);
     color: aliceblue;
     font-family: 'Geis', monospace;
     font-weight: bold;
 }
+
 
 img {
     display: block;
@@ -158,3 +161,16 @@ footer h3 {
 
 /* Estilização da segunda página */
 
+@media (max-width: 700px) {
+    main {
+        padding: 80px 22px 10px 22px;
+    }
+
+    .text-cham h3 {
+        font-size: 1.4rem;
+    }
+
+    footer h3 {
+        font-size: 0.78rem;
+    }
+}
