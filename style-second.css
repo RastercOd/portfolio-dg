@@ -60,11 +60,11 @@ main {
     padding-top: 2rem;
 }
 
-.container-one h1 {
+.container-one div h1 {
     margin-bottom: 48px;
 }
 
-.container-one h2{
+.container-one div h2{
     margin-bottom: 10px;
 }
 
