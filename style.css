@@ -129,10 +129,29 @@ main {
     height: 25px;
 }
 
+.text-cham {
+    margin-top: 65px;
+}
+
+.text-cham p {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
 .text-cham h3 {
+    position: relative;
     text-align: center;
     font-size: 1.9rem;
-    margin-top: 65px;
+}
+
+.text-cham h3::before {
+    content: "";
+    position: absolute;
+    width: 363px;
+    height: 3px;
+    background: #fff;
+    top: 44px;
 }
 
 .text-cham h3 a {
@@ -168,6 +187,15 @@ footer h3 {
 
     .text-cham h3 {
         font-size: 1.4rem;
+    }
+
+    .text-cham h3::before {
+        content: "";
+        position: absolute;
+        width: 275px;
+        height: 3px;
+        background: #fff;
+        top: 40px;
     }
 
     footer h3 {

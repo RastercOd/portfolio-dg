@@ -17,6 +17,7 @@
 }
 
 ::selection {
+    opacity: 1;
     background-color: #043b36; /* Cor de fundo mais clara */
     color: #14d2dc; /* Cor de texto mais escura */
 }
