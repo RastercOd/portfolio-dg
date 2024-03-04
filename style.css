@@ -192,7 +192,7 @@ footer h3 {
     .text-cham h3::before {
         content: "";
         position: absolute;
-        width: 275px;
+        max-width: 295px;
         height: 3px;
         background: #fff;
         top: 40px;
