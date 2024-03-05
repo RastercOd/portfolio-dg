@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Geis';
-    src: url('Geist-Bold.oft') format('opentype'), url('Geist-Regular.otf') format('opentype');
+    src: url('./font/Geist-Regular.otf') format('opentype');
 }
 
 :root {
@@ -26,7 +26,6 @@ body {
     background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(14,17,16,1) 50%, rgba(17,17,16,1) 56%);
     color: aliceblue;
     font-family: 'Geis', monospace;
-    font-weight: bold;
 }
 
 
@@ -44,7 +43,7 @@ h2 {
 
 p {
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--fbackground);
 }
 
