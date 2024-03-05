@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Geis';
-    src: url('Geist-Bold.oft') format('opentype'), url('Geist-Regular.otf') format('opentype');
+    src: url('./font/Geist-Regular.otf') format('opentype');
 }
 
 :root {
