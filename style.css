@@ -22,12 +22,11 @@
 body {
     /* background: rgb(17,17,17);
     background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(38,7,29,1) 50%, rgba(17,17,16,1) 56%); */
-    background: rgb(17,17,17);
-    background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(14,17,16,1) 50%, rgba(17,17,16,1) 56%);
+    background: #132628;
+    background: linear-gradient(90deg, rgba(19,38,40,1) 16%, rgba(19,38,40,1) 50%, rgba(19,38,40,1) 86%);
     color: aliceblue;
-    font-family: 'Geis', monospace;
+    font-family: 'Geis', serif;
 }
-
 
 img {
     display: block;
@@ -37,7 +36,7 @@ img {
 
 h1,
 h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1;
 }
 
@@ -49,7 +48,89 @@ p {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
+
+li {
+    list-style: none;
+}
+
+/* .header-bg {
+    background: #243c3d;
+    max-width: 780px;
+    margin: auto;
+    margin-top: 85px;
+    box-shadow: inset 125px 0 #132628;
+    border-radius: 10px;
+}
+
+.header {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header img {
+    max-width: 220px;
+    padding: 20px 10px;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+}
+
+.header p {
+    display: inline-block;
+    padding: 9px;
+    background: #274648;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.media-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.media-social li {
+    background:#274648;
+    border-radius: 15px;
+    color: white;
+    align-items: center;
+}
+
+.media-social a {
+    padding: 11px 11px 8px 11px;
+    display: inline-block;
+}
+
+.media-social .wpp:hover {
+    color: #4EC559;
+}
+
+.media-social .git:hover {
+    color: black;
+}
+
+.media-social .linkedin:hover {
+    color: #0A78B5;
+}
+
+.media-social .insta:hover {
+    color: #C72480;
+}
+
+.media-social ion-icon {
+    width: 20px;
+    height: 20px;
+} */
 
 main {
     margin: 0 auto;
