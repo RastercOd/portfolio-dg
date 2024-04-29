@@ -264,20 +264,13 @@ footer h3 {
         padding: 80px 22px 10px 22px;
     }
 
-    .text-cham h3 {
-        font-size: 1.4rem;
-    }
-
-    .text-cham h3::before {
-        content: "";
-        position: absolute;
-        max-width: 295px;
-        height: 3px;
-        background: #fff;
-        top: 40px;
-    }
-
     footer h3 {
         font-size: 0.78rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .text-cham a {
+        font-size: 1.4rem;
     }
 }
