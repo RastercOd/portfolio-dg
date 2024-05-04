@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #262626 transparent;
 }
 
 @font-face {
@@ -22,8 +24,8 @@
 body {
     /* background: rgb(17,17,17);
     background: linear-gradient(90deg, rgba(17,17,17,1) 43%, rgba(38,7,29,1) 50%, rgba(17,17,16,1) 56%); */
-    background: #132628;
-    background: linear-gradient(90deg, rgba(19,38,40,1) 16%, rgba(19,38,40,1) 50%, rgba(19,38,40,1) 86%);
+    background: rgb(10,24,23);
+    background: linear-gradient(90deg, rgba(10,24,23,1) 8%, rgba(17,17,17,1) 50%, rgba(10,24,23,1) 92%);
     color: aliceblue;
     font-family: 'Geis', serif;
 }
