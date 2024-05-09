@@ -57,6 +57,10 @@ li {
     list-style: none;
 }
 
+.mr-top-10 {
+    margin-top: 10px;
+}
+
 /* .header-bg {
     background: #243c3d;
     max-width: 780px;
@@ -163,7 +167,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .sec-more {
@@ -193,7 +197,6 @@ main {
     flex-direction: column;
     gap: 1rem;
     padding-top: 4rem;
-
 }
 
 .icons {
@@ -209,6 +212,22 @@ main {
 .icons ion-icon {
     width: 25px;
     height: 25px;
+}
+
+.icons .wpp:hover {
+    color: #4EC559;
+}
+
+.icons .git:hover {
+    color: #677483;
+}
+
+.icons .linkedin:hover {
+    color: #0A78B5;
+}
+
+.icons .insta:hover {
+    color: #C72480;
 }
 
 .text-cham {
