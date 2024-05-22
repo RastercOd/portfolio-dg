@@ -14,6 +14,7 @@
 :root {
     --fbackground: #b5b3ad;
     --white-color: #fffefe;
+    --cor-p1-hover: #0B0B0B;
 }
 
 ::selection {
