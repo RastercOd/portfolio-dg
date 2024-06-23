@@ -24,7 +24,7 @@
 
 body {
     background: rgb(10,24,23);
-    background: linear-gradient(90deg, rgba(10,24,23,1) 8%, rgba(17,17,17,1) 50%, rgba(10,24,23,1) 92%);
+    background: #111111;
     color: aliceblue;
     font-family: 'Geis', monospace;
     font-weight: bold;
