@@ -177,19 +177,15 @@ main {
     align-items: baseline;
 }
 
-.project {
+.sec-more h2 a {
     font-size: 0.9rem;
-    color: var(--fbackground);
-}
-
-.project a {
     text-decoration: none;
     color: var(--fbackground);
+    transition: 0.3s ease-in-out;
 }
 
-.sec-img p {
-    font-size: 1rem;
-    color: var(--fbackground);
+.sec-more h2 a:hover {
+    color: rgba(255, 255, 255, 0.875);
 }
 
 .sec-info {
@@ -212,6 +208,7 @@ main {
 .icons ion-icon {
     width: 25px;
     height: 25px;
+    transition: 0.3s ease-in-out;
 }
 
 .icons .wpp:hover {
