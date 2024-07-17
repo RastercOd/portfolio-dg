@@ -33,8 +33,8 @@
 
 :root {
     --bright-blue: rgb(158, 158, 158);
-    --bright-green: rgb(0, 255, 0);
-    --bright-red: rgb(255, 0, 0);
+    --bright-green: rgb(158, 158, 158);
+    --bright-red: rgb(158, 158, 158);
     --background: #1f2021;
     /* --background: #1f252e; */
     /* --background: black; */
