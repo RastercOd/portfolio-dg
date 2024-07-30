@@ -365,7 +365,8 @@ footer {
 footer h3 {
     font-size: 0.81rem;
     color: var(--fbackground);
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .footer-en {
