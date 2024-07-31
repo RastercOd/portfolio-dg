@@ -137,12 +137,17 @@ main {
 
 footer {
     padding: 95px 0 25px 0;
+    margin: 0 auto;
+    align-items: center;
 }
 
 footer h3 {
     font-size: 0.81rem;
     color: var(--fbackground);
     margin-bottom: 8px;
+}
+
+footer p {
     text-align: center;
 }
 
@@ -154,6 +159,10 @@ footer h3 {
 @media (max-width: 700px) {
     main {
         padding: 80px 22px 10px 22px;
+    }
+
+    footer h3 {
+        text-align: center;
     }
 
     footer h3 {
