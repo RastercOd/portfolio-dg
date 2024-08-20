@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: 'Geis';
+    src: url('./font/Geist-Bold.ttf') format('opentype');
+    src: url('./font/Geist-Regular.otf') format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #262626 transparent;
+    font-family: 'Geis', monospace;
+    background: #0a0a0a;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --geis-bold: url('./font/Geist-Bold.ttf');
+    --geis-regular: url('./font/Geist-Regular.otf');
+    --fbackground: #b5b3ad;
+    --white-color: #fffefe;
+    --border-line: #8c8c8c;
+    --color-hover: #191918;
+}
+
+::selection {
+    opacity: 1;
+    background-color: rgba(20,184,166,.1); /* Cor de fundo mais clara */
+    color: rgb(94 234 212); /* Cor de texto mais escura */
+}
+
+.apr-name {
+    color: white;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 120px 20px 0 20px;
+}
+
+.apr-name h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    color: #d4d4d4;
+    margin-bottom: 1.5rem;
+}
+
+.apr-name p {
+    opacity: .7;
+    font-weight: 200;
+    line-height: 20px;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #b5b3ad;
+}
+
+.caracter-epc {
+    /* color: #1A2D2B; */
+    color: #95C8B7;
+}
+
+/* cards */
+
+.affect {
+    display: flex;
+    justify-content: center;
+}
+
+.container-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px 0 20px;
+}
+
+.container-card h2 {
+    font-size: 1.3rem;
+    color: #d4d4d4;
+}
+
+.cards-item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    border: 1px solid #262626;
+    border-radius: 16px;
+    padding: 20px;
+    justify-items: center;
+    transition: transform .6s ease;
+}
+
+.cards:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.cards h3 {
+    color: #e5e5e5;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.cards p {
+    color: #e5e5e5;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+    padding: 95px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3 {
+    font-size: 0.81rem;
+    color: var(--fbackground);
+    margin-bottom: 8px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.footer-en {
+    font-size: 0.81rem;
+    color: var(--fbackground);
+}

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #262626 transparent;
+    font-family: 'Geis', monospace;
+    background: #0a0a0a;
+}
+
+@font-face {
+    font-family: 'Geis';
+    src: url('./font/Geist-Bold.ttf') format('opentype');
+    src: url('./font/Geist-Regular.otf') format('opentype');
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --geis-bold: url('./font/Geist-Bold.ttf');
+    --geis-regular: url('./font/Geist-Regular.otf');
+    --fbackground: #b5b3ad;
+    --white-color: #fffefe;
+    --border-line: #8c8c8c;
+    --color-hover: #191918;
+}
+
+::selection {
+    opacity: 1;
+    background-color: rgba(20,184,166,.1); /* Cor de fundo mais clara */
+    color: rgb(94 234 212); /* Cor de texto mais escura */
+}
+
+.container-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px 0 20px;
+}
+
+.container-flex h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    color: #d4d4d4;
+    margin-bottom: 1.5rem;
+}
