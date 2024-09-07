@@ -105,6 +105,7 @@ a {
 .cards:hover {
     transform: scale(1.07);
     cursor: pointer;
+    border: 1px solid #8c8c8c;
 }
 
 .cards h3 {

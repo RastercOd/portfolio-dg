@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-font1: #f5f6fa;
+    --color-font2: #d0d7e7;
+    --color-font3: #eaecf4;
+    --color-bg: #1e2433;
+}
+
+@font-face {
+    font-family: 'Geis';
+    src: url('./font/Geist-Regular.otf') format('opentype');
+}
+
+.img-perfil {
+    display: block;
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 50%;
+    border: solid 4px #1e2433;
+}
+
+body {
+    background-image: url(./img/img-back-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 60px 20px;
+}
+
+
+.conteudo>div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+.conteudo h1 {
+    font-size: 2rem;
+    color: var(--color-font1);
+    text-align: center;
+}
+
+.conteudo h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 58px;
+    background: linear-gradient(130deg, #ffffff 20%, #788db8 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+
+.links-bg {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.links {
+    position: relative;
+    background: var(--color-bg);
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.links:hover {
+    background: var(--color-font2);
+    transition: ease-in-out 0.3s;
+}
+
+.links a:hover {
+    color: var(--color-bg);
+}
+
+.links a {
+    display: flex;
+    padding: 20px 0;
+    color: var(--color-font3);
+    letter-spacing: 1.2px;
+    font-size: 1.225rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.links .icon-wpp::before {
+    content: "";
+    position: absolute;
+    background: url(icon/whattsapp.png) no-repeat;
+    filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(1870%) hue-rotate(88deg) brightness(90%) contrast(93%);
+    left: 10px;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+.links .icon-gmail::before {
+    content: "";
+    position: absolute;
+    background: url(icon/envelope.png) no-repeat;
+    filter: brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(3126%) hue-rotate(340deg) brightness(79%) contrast(104%);
+    left: 10px;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+.links .icon-linkedin::before {
+    content: "";
+    position: absolute;
+    background: url(icon/icon-linkedin.png) no-repeat;
+
+    left: 10px;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 600px;
+    margin-top: 60px;
+}
+
+footer h3,
+p {
+    font-size: 0.90rem;
+    text-align: center;
+    color: #a7b5d2;
+}
