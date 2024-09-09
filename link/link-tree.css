@@ -14,6 +14,7 @@ a {
     --color-font2: #d0d7e7;
     --color-font3: #eaecf4;
     --color-bg: #1e2433;
+    --color-bg-clear: #ededed;
 }
 
 @font-face {
@@ -78,28 +79,29 @@ body {
 
 .links {
     position: relative;
-    background: var(--color-bg);
+    background: var(--color-bg-clear);
     border-radius: 12px;
     transition: 0.4s;
 }
 
 .links:hover {
-    background: var(--color-font2);
+    background: var(--color-bg);
     transition: ease-in-out 0.3s;
-}
-
-.links a:hover {
-    color: var(--color-bg);
 }
 
 .links a {
     display: flex;
     padding: 20px 0;
-    color: var(--color-font3);
+    color: var(--color-bg);
     letter-spacing: 1.2px;
     font-size: 1.225rem;
     align-items: center;
     justify-content: center;
+    transition: ease-in-out 0.3s;
+}
+
+.links a:hover {
+    color: var(--color-bg-clear);
 }
 
 .links .icon-wpp::before {
@@ -127,8 +129,8 @@ body {
 .links .icon-linkedin::before {
     content: "";
     position: absolute;
-    background: url(icon/icon-linkedin.png) no-repeat;
-
+    background: url(icon/color-.png) no-repeat;
+    filter: brightness(0) saturate(100%) invert(17%) sepia(100%) saturate(3292%) hue-rotate(244deg) brightness(72%) contrast(136%);
     left: 10px;
     top: 8px;
     width: 48px;
@@ -153,3 +155,4 @@ p {
     text-align: center;
     color: #a7b5d2;
 }
+
