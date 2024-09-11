@@ -41,7 +41,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 600px;
-    padding: 60px 20px;
+    padding: 60px 30px;
 }
 
 
@@ -156,3 +156,33 @@ p {
     color: #a7b5d2;
 }
 
+@media (max-width: 600px) {
+    .links a {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+    
+    .links .icon-wpp::before {
+        background: url(icon/wpp-little.png) no-repeat;
+        left: 10px;
+        top: 7px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .links .icon-gmail::before {
+        background: url(icon/gmail-little.png) no-repeat;
+        left: 10px;
+        top: 7px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .links .icon-linkedin::before {
+        background: url(icon/color-litte.png) no-repeat;
+        left: 10px;
+        top: 7px;
+        width: 32px;
+        height: 32px;
+    }
+}
