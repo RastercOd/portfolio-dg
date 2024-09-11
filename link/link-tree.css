@@ -107,7 +107,7 @@ body {
 .links .icon-wpp::before {
     content: "";
     position: absolute;
-    background: url(icon/whattsapp.png) no-repeat;
+    background: url(icon/wpp.svg) no-repeat;
     filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(1870%) hue-rotate(88deg) brightness(90%) contrast(93%);
     left: 10px;
     top: 8px;
@@ -118,7 +118,7 @@ body {
 .links .icon-gmail::before {
     content: "";
     position: absolute;
-    background: url(icon/envelope.png) no-repeat;
+    background: url(icon/envelope.svg) no-repeat;
     filter: brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(3126%) hue-rotate(340deg) brightness(79%) contrast(104%);
     left: 10px;
     top: 8px;
@@ -129,7 +129,7 @@ body {
 .links .icon-linkedin::before {
     content: "";
     position: absolute;
-    background: url(icon/color-.png) no-repeat;
+    background: url(icon/layout-.svg) no-repeat;
     filter: brightness(0) saturate(100%) invert(17%) sepia(100%) saturate(3292%) hue-rotate(244deg) brightness(72%) contrast(136%);
     left: 10px;
     top: 8px;
@@ -163,26 +163,26 @@ p {
     }
     
     .links .icon-wpp::before {
-        background: url(icon/wpp-little.png) no-repeat;
+        background: url(icon/wpp-litte.svg) no-repeat;
         left: 10px;
         top: 7px;
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
     }
 
     .links .icon-gmail::before {
-        background: url(icon/gmail-little.png) no-repeat;
+        background: url(icon/envelope-litte.svg) no-repeat;
         left: 10px;
         top: 7px;
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
     }
 
     .links .icon-linkedin::before {
-        background: url(icon/color-litte.png) no-repeat;
+        background: url(icon/layout-litte.svg) no-repeat;
         left: 10px;
         top: 7px;
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
     }
 }
