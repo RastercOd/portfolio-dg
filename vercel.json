@@ -8,7 +8,7 @@
 
 
         {
-            "source": "/index/projetos.html",
+            "source": "/projetos.html",
             "destination": "/projetos",
             "permanent": true
         }

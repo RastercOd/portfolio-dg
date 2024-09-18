@@ -2,7 +2,7 @@
     "redirects": [
         {
             "source": "/link/index.html",
-            "destination": "/index",
+            "destination": "/link",
             "permanent": true
         }
     ]
