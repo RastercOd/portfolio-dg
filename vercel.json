@@ -4,6 +4,18 @@
           "source": "/index.html",
           "destination": "/",
           "permanent": true
+        },
+
+        {
+          "source": "/link/index.html",
+          "destination": "/link",
+          "permanent": true
+        },
+
+        {
+            "source": "/projetos.html",
+            "destination": "/projetos",
+            "permanent": true
         }
       ]
 }
