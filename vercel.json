@@ -8,7 +8,7 @@
 
         {
           "source": "/link/index.html",
-          "destination": "/",
+          "destination": "/link",
           "permanent": true
         },
 
