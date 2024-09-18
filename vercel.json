@@ -6,11 +6,6 @@
           "permanent": true
         },
 
-        {
-          "source": "/link/index.html",
-          "destination": "/link",
-          "permanent": true
-        },
 
         {
             "source": "/projetos.html",
