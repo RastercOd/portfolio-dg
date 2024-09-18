@@ -11,10 +11,10 @@
           "destination": "/link",
           "permanent": true
         },
-        
+
         {
             "source": "/projetos.html",
-            "destination": "/projetos",
+            "destination": "/",
             "permanent": true
         }
       ]
