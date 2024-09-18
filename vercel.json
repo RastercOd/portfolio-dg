@@ -7,14 +7,14 @@
         },
 
         {
-          "source": "/tree.html",
+          "source": "/link.html",
           "destination": "/link",
           "permanent": true
         },
 
         {
             "source": "/projetos.html",
-            "destination": "/",
+            "destination": "/projetos",
             "permanent": true
         }
       ]
