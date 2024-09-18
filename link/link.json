@@ -1,8 +1,8 @@
 {
     "redirects": [
         {
-            "source": "/index.html",
-            "destination": "/",
+            "source": "/link/index.html",
+            "destination": "/link",
             "permanent": true
         }
     ]
