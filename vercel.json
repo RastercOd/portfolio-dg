@@ -5,10 +5,17 @@
           "destination": "/",
           "permanent": true
         },
+
         {
           "source": "/tree.html",
           "destination": "/link",
           "permanent": true
+        },
+        
+        {
+            "source": "/projetos.html",
+            "destination": "/projetos",
+            "permanent": true
         }
       ]
 }
