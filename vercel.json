@@ -1,14 +1,14 @@
 {
-    "rewrites": [
-      {
-        "source": "/",
-        "destination": "/index.html",
-        "permanent": true
-      },
-      {
-        "source": "/link",
-        "destination": "/tree.html",
-        "permanent": true
-      }
-    ]
-  }
+    "redirects": [
+        {
+          "source": "/index.html",
+          "destination": "/",
+          "permanent": true
+        },
+        {
+          "source": "/tree.html",
+          "destination": "/link",
+          "permanent": true
+        }
+      ]
+}
