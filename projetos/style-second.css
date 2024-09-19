@@ -8,8 +8,9 @@
 
 @font-face {
     font-family: 'Geis';
-    src: url('./font/Geist-Regular.otf') format('opentype');
+    src: url('/font/Geist-Regular.otf') format('opentype');
 }
+
 
 :root {
     --fbackground: #b5b3ad;
