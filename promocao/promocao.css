@@ -7,8 +7,9 @@
     font-family: "Henny Penny", system-ui;
     font-weight: 800;
     background: #111111;
-    color: #fff;
+    color: #ffeef0;
     font-size: 1.8rem;
+    line-height: 1.125;
 }
 
 img {
